@@ -7,8 +7,8 @@ lazy val ScalaCheckVersion = "$scala_check_version$"
 
 lazy val root = (project in file("."))
   .settings(
-    organization := "uk.me.tobymiller",
-    name := "serverlesscatstest",
+    organization := "$organization$",
+    name := "$name;format="norm"$",
     version := "0.0.1-SNAPSHOT",
     scalaVersion := "$scala_version$",
     scalacOptions := Seq(
